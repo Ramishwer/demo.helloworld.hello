@@ -49,6 +49,7 @@ public class ControllerClass {
         return serviceClass.getEntitySumSpecifichello();
     }
 
+
     @PostMapping("/addAllEntityClass")
     public String addAllEntityClass( @RequestBody EntityClass entityClass) {
         serviceClass.createAllEntity(entityClass);
